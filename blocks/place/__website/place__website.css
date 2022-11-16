@@ -1,0 +1,5 @@
+.place_website {
+    max-width: 456px;
+    display: flex;
+    flex-direction: column
+}

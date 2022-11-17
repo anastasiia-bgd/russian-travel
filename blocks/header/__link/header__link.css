@@ -1,6 +1,4 @@
 .header__link {
-  max-width: 30px;
-  max-height: 28px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -10,10 +8,16 @@
   color: #FFFFFF;
   margin: 0 18px 0 0;
   padding: 0;
+  transition: opacity 0.4s;
 }
 .header__link:last-child {
     margin: 0;
   }
+
+  .header__link:hover {
+    opacity: 0.8;
+  }
+
   @media screen and (max-width: 320px) {
     .header__link {
       font-size: 18px;

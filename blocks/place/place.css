@@ -5,6 +5,9 @@
     margin: 0 0 80px;
 }
 
+.place:last-child {
+    margin: 0;
+}
 
 @media screen and (max-width: 768px) {
     .place {

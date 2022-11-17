@@ -12,3 +12,9 @@
         padding-left: 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place__info {
+        margin-bottom: 32px;
+    }
+}

@@ -1,12 +1,13 @@
 .place__url-heading {
- width: 100%;
- font-style: normal;
+  width: 100%;
+  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
   text-transform: uppercase;
+  margin: 0;
 }
 
 @media screen and (max-width: 320px) {

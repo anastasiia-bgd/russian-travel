@@ -21,9 +21,16 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 445px) {
     .photo-grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        /* grid-template-columns: repeat(1, 1fr); */
         padding: 0 16px 0;
         margin: 0 0 64px;
     }
